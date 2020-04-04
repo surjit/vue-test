@@ -8,8 +8,13 @@ const routes = [
     component: () => import('./views/Home'),
   },
   {
-    path: '/post/edit/:Id',
+    path: '/post',
     name: 'Post',
+    component: () => import('./views/Post'),
+  },
+  {
+    path: '/post/edit/:Id',
+    name: 'PostEdit',
     component: () => import('./views/Post'),
   },
   {

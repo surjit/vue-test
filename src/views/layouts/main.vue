@@ -15,6 +15,9 @@
                                 <router-link class="nav-link" to="/" tag="a">Home <span class="sr-only">(current)</span></router-link>
                             </li>
                             <li class="nav-item">
+                                <router-link class="nav-link" to="/post" tag="a">post <span class="sr-only">(current)</span></router-link>
+                            </li>
+                            <li class="nav-item">
                                 <router-link class="nav-link" to="/404" tag="a">404 <span class="sr-only">(current)</span></router-link>
                             </li>
                         </ul>

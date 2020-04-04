@@ -1,14 +1,14 @@
 import Http from '../../services/post';
 
 export default {
-    props: ['title', 'model', 'formFields', 'formKeys'],
+    props: ['postData'],
     data() {
         return {
             formData: {}
         }
     },
     created() {
-        this.fetchData();
+        console.log(this.postData);
     },
     watch: {
         // eslint-disable-next-line no-unused-vars
